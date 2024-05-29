@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="decoracion.css">
+    <script src="funciones.js" defer></script>
 </head>
 <body>
     <div class="header-left">
@@ -15,6 +17,7 @@
       </div>
       <nav>
         <ul>
+          <li><a href="proyecto.html">Inicio</a></li>
           <li><a href="cetegorias.html">Categorías</a></li> 
           <li><a href="compras.html">Compras</a></li>
           <li><a href="#historial-ventas"> Ventas</a></li>
@@ -25,9 +28,37 @@
         </ul>
       </nav>
     <h1>Categoria de los productos</h1>
-   <li>Mas vendidos</li>
-   <li>Mayor Precio</li>
-   <li>Menor Precio</li>
-   <li>Mejor votados</li>
+    <ul>
+      <li><a href="#mouses">Mouses</a></li>
+      <li><a href="#teclados">Teclados</a></li>
+      <li><a href="#audifonos">Audífonos</a></li>
+  </ul>
+
+  <section id="mouses">
+      <h2>Celulares</h2>
+      <div class="slider">
+          <div class="slides">
+              
+              <img src="imagenes/3efdd0c7c52301e10bd58e8c7669cbab-5.jpg" alt="Mouse 1">
+              
+          </div>
+          <div class="slider-nav">
+              <span class="prev" onclick="moveSlides(-1)">&#10094;</span>
+              <span class="next" onclick="moveSlides(1)">&#10095;</span>
+          </div>
+      </div>
+      <h2>Airpods</h2>
+      <div class="slider">
+          <div class="slides">
+              
+              <img src="imagenes/3efdd0c7c52301e10bd58e8c7669cbab-4.jpg" alt="Mouse 1">
+              
+          </div>
+          <div class="slider-nav">
+              <span class="prev" onclick="moveSlides(-1)">&#10094;</span>
+              <span class="next" onclick="moveSlides(1)">&#10095;</span>
+          </div>
+      </div>
+  </section>
 </body>
 </html>
