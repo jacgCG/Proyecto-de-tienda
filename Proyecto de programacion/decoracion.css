@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: center, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header-left form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  .header-left button[type="submit"] {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  #select-categorias {
+    margin-top: 10px;
+  }
+  
+  #select-categorias select {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+  }
