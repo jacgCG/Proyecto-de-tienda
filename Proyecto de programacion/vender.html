@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="decoracion.css">
+    <script src="funciones.js" defer></script>
 </head>
 <body>
     <div class="header-left">
@@ -26,18 +28,23 @@
           <li><a href="crearcuenta.html">Crear Cuenta</a></li>
         </ul>
       </nav>
-    <section id="formulario">
+      <section id="formulario">
         <h2>Subir Producto</h2>
         <form>
-          <p><label for="nombre">Nombre del Producto:</label></p>
-          <input type="text" id="nombre" name="nombre" required>
+            <p><label for="nombre">Nombre del Producto:</label></p>
+            <input type="text" id="nombre" name="nombre" required>
 
-          <p><label for="precio">Precio:</label></p>
-          <input type="number" id="precio" name="precio" required>
-         <p> <label for="descripcion">Descripción:</label></p>
-          <textarea id="descripcion" name="descripcion"></textarea>
-          <p><button type="submit">Subir Producto</button></p>
+            <p><label for="precio">Precio:</label></p>
+            <input type="number" id="precio" name="precio" required>
+
+            <p><label for="descripcion">Descripción:</label></p>
+            <textarea id="descripcion" name="descripcion"></textarea>
+
+            <p><label for="imagen">Subir Imágenes:</label></p>
+            <input type="file" id="imagen" name="imagen" accept="image/*" multiple>
+
+            <p><button type="submit">Subir Producto</button></p>
         </form>
-      </section>
+    </section>
 </body>
 </html>
